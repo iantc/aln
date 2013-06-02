@@ -1,0 +1,269 @@
+/*  
+Theme Name: ALN 1.0
+Theme URI: 
+Description: 
+Author: Ian Chan
+Author URI: http://consortiumlibrary.org/faculty/ichan/
+*/
+html, body, #contentwrap {
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+}
+
+html>body, html>body #contents {
+	height: auto;
+}
+
+body {
+position: relative;
+margin: 0px;
+padding: 0px;
+text-align: center;
+background: url(/images/page-bg3.jpg) 0% 227px repeat-x #fff;
+color: #bebebe;
+font: 95%/150% "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+color: #333333;}
+a:link, a:visited{
+color: #1b4095;	
+text-decoration: underline;}
+#s{
+margin-top: 28px;
+margin-left: 20px;
+width: 150px;
+border: none;
+background: none;}
+img{
+border: none;}
+#contentwrap{
+position: relative;
+z-index:20;
+margin: 0px auto;
+padding: 0px 0px 15px 0px;
+background: transparent;
+height:690px;
+width: 838px;
+text-align: left;}
+#contentwrap[id]{
+height:auto;
+min-height:690px;}
+#left{
+position: relative;
+padding-top: 20px;
+z-index:10;
+background: transparent;
+width: 168px;}
+#left[id]{
+width: 168px;}
+#left a:link, #left a:visited{
+text-decoration: none;}
+.trilink{
+position: relative;
+padding-top: 5px;
+padding-bottom: 5px;}
+.searchbox{
+position: relative;
+height: 83px;
+display: none;
+width: 215px;
+background: url(img/search.gif) top left no-repeat;}
+.moduleone{
+position: relative;
+margin-top: 5px;
+padding-bottom: 12px;	
+background: url(/images/menu-bottom-bg1.jpg) bottom left no-repeat;}
+.moduletwo{
+position: relative;
+padding: 10px 12px 12px 12px;	
+background: url(/images/menu-top-bg1.jpg) top left no-repeat;}
+.moduletwo ul{
+position: relative;
+margin-left: 15px;	}
+.moduletwo a:link, .moduletwo a:visited{
+position: relative;
+height: 100%;
+display: block;
+padding: 4px 0px 4px 15px;
+background: url(img/btn.gif) left center no-repeat;
+color: #008FFF;	}
+#logobox{
+position: relative;
+height: 155px;
+width: 218px;
+background: url(img/aln_logo_med.gif) 50% 0% no-repeat;
+cursor: pointer;}
+#right{
+position: relative;
+background: transparent;
+float: right;
+z-index:1;
+width: 590px; }
+#right[id]{
+width: 610px;}
+#right h2{
+z-index:1;}
+#mission{
+position: relative;
+margin-left: 25px;
+font-weight: bold;
+height: 140px;
+width: 400px;
+background: url(/images/mission-bg1.jpg) 0% -20px no-repeat; }
+#mission[id]{
+background: url(/images/mission-bg1-8.png) 0% -20px no-repeat; }
+#frontpageContainer {
+position: relative;
+height: 285px;
+z-index:1;
+margin-top: 7px;
+padding: 80px 170px 10px 70px;
+font-weight: normal;
+width: 320px;
+background: url(/images/news-bg2.jpg) 0% 0% no-repeat transparent;}
+#frontpageContainer .navigation{
+margin-left: 20px;}
+#frontpageContainer[id] {
+height: auto;
+min-height:250px;
+padding: 80px 100px 10px 70px;
+width: 390px;
+background: url(/images/news-bg3.png) 0% 0% no-repeat transparent;}
+#frontpageContainer[id] p {
+line-height: 130%;
+padding: 0px 50px 0px 10px;}
+#newsHeader{
+font-weight: normal;
+height:30px;}
+.newsIndex .posthead{
+position: relative;
+width:99%;
+clear: both;
+float: left;
+margin: 0px 0px 15px 0px;}
+.newsIndex .postindexitem{
+width:350px;
+margin:0px;
+padding:0px;}
+.newsIndex .postindexitem a:link,
+.newsIndex .postindexitem a:active,
+.newsIndex .postindexitem a:visited,
+.newsIndex .postindexitem a:hover{
+text-decoration: none;
+border-bottom: 1px dotted #aaa;}
+.newsIndex .posthead p{
+margin:0px 20px 0px 20px; }
+.newsIndex .postdetails{
+position: relative;
+color: #666;	
+font-size:85%;}
+.newsIndex .thepost{
+position: relative;
+padding-left: 15px;}
+.newsIndex .postbottom{
+font-size:90%;
+position: relative;
+float:right;
+margin: 2px 0px 0px 10px;
+width: 80px;
+color: #777;
+font-style:italic;}
+.newsIndex,.pageContent{
+font-family: Arial, Verdana, Helvetica, sans-serif;
+padding: 60px 40px 10px 60px; 
+width: 505px;
+height:480px;
+background: url(/images/pageContent-bg1.jpg) 0% 31px no-repeat transparent;}
+.newsIndex[class],
+.pageContent[class]{
+width: 490px;
+padding: 30px 70px 10px 60px; 
+height: auto;
+min-height: 480px;
+background: url(/images/pageContent-bg1.jpg) 0% 0px no-repeat transparent;}
+.pageContent h1{
+position: relative;
+display: block;
+padding-top: 4px;
+font-size: 28px;
+font-weight: normal;
+text-align:left;
+border-bottom: 1px solid #bbb;
+color: #333;}
+#newsContainer p,
+.pageContent p{
+line-height: 130%;
+padding: 0px 10px 20px 10px;}
+.pageContent h4,
+.pageContent h3{
+padding: 0px 10px 0px 10px; }
+.pageContent ul {
+list-style: square;
+padding: 0px;
+margin: 0px 0px 10px 40px;}
+.pageContent li{
+padding: 0px 0px 14px 25px;}
+.ec3_eventday{
+background: #930;
+color: #fff;}
+h2{
+padding-top: 4px;
+font-size: 20px;
+color: #333;	 }
+h3{
+position: relative;
+padding-left: 5px;
+font-weight: bold;
+color: #000000; }
+.footer-link{
+position: relative;
+margin: auto;
+padding: 15px 18px 20px 22px;
+text-align: center;}
+#pageFooter {
+height: 70px;
+z-index:10;
+position: relative;
+background: #e8e8e8;
+width: 100%;
+bottom:0px;
+margin-top: 15px;
+text-align: center}
+#pageFooter[id] {
+background: url(/images/footer-bg1.png) 0% 0% repeat-x transparent;
+position: fixed;
+text-align: center}
+#pageFooter ul{
+bottom:-120px;
+display: inline;
+position: absolute;
+width:450px;
+margin: 0px auto;}
+#topMenu {
+margin: 25px 0px 50px 50px;}
+
+#wp-calendar table caption a{
+color: #333;
+text-decoration: none;
+font-weight: bold;}
+
+#wp-calendar table caption {
+color: #333;
+text-align: left;
+margin-top: 20px;
+padding: 3px 6px;
+border: 1px dotted #aaa;}
+#cformsform{
+margin: 0px;
+padding: 0px; }
+
+#footer {
+position: absolute;
+bottom: 0;
+height:100px;
+margin-top: 10px;
+background: url(/images/page-bg2.jpg) 0% 0px repeat-x #fff;
+width: 100%;
+text-align: center;}
+.ec3_postday, .ec3_eventday{
+background: #fff;
+border: 1px dotted #930}
